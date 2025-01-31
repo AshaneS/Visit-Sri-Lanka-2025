@@ -5,11 +5,9 @@ import SmallCard from "@/components/SmallCard";
 import destinationJson from "@/data/DestinationData.json";
 
 async function Destinations({ params }: { params: { city: string } }) {
-  const awaitedParams = await params;
-
   const destinationData = destinationJson.find(
     (destination) =>
-      destination.city.toLowerCase() === awaitedParams.city.toLowerCase()
+      destination.city.toLowerCase() === params.city.toLowerCase()
   );
 
   // console.log(destinationData);

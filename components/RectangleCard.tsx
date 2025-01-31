@@ -1,6 +1,11 @@
 import Image from "next/image";
 
-function RectangleCard(props) {
+interface RectangleCardProps {
+  className?: string;
+  img: string;
+}
+
+function RectangleCard(props: RectangleCardProps) {
   return (
     <div
       className={`${props.className} 

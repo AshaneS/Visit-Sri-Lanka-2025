@@ -39,12 +39,12 @@ async function Destinations({ params }: DestinationProps) {
             </div>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 grid-flow-row-dense">
-            <SmallCard className="bg-blue-400" />
-            <SmallCard className="bg-indigo-500" />
-            <LargeCard className="col-span-2 bg-yellow-300" />
-            <SmallCard className="bg-blue-400" />
-            <SmallCard className="bg-indigo-500" />
-            <LargeCard className="col-span-2 bg-yellow-300" />
+            <SmallCard img="" />
+            <SmallCard img="" />
+            <LargeCard img="" />
+            <SmallCard img="" />
+            <SmallCard img="" />
+            <LargeCard img="" />
           </div>
         </section>
 
@@ -94,5 +94,5 @@ async function Destinations({ params }: DestinationProps) {
       </main>
     </div>
   );
-}
-export default Destinations;
+
+}export default Destinations;

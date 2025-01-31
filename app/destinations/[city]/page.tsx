@@ -4,10 +4,15 @@ import LargeCard from "@/components/LargeCard";
 import SmallCard from "@/components/SmallCard";
 import destinationJson from "@/data/DestinationData.json";
 
-function Destinations({ params }: { params: { city: string } }) {
+interface DestinationProps {
+  params: Promise<{ city: string }>;
+}
+
+async function Destinations({ params }: DestinationProps) {
+  const params_1 = await params;
   const destinationData = destinationJson.find(
     (destination) =>
-      destination.city.toLowerCase() === params.city.toLowerCase()
+      destination.city.toLowerCase() === params_1.city.toLowerCase()
   );
 
   // console.log(destinationData);

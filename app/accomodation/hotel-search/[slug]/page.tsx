@@ -9,14 +9,15 @@ import { useEffect, useState } from "react";
 function Accomodation() {
   // state for sidebar//
 
-  const [selectedFilter, setSelectedFilter] = useState("");
+  const [selectedFilter, setSelectedFilter] = useState<string[]>([]);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   //state for the filter button
 
-
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [isFilterApplied, setIsFilterApplied] = useState(false);
+  if (isFilterApplied) {
+    console.log("Filters are applied!");
+  }
 
   // toggle side bar fucntion//
 
@@ -87,5 +88,4 @@ function Accomodation() {
     </div>
   );
 }
-
 export default Accomodation;

@@ -24,6 +24,7 @@ function FilterSideBar({
   hotelsData,
   selectedFilter,
   setSelectedFilter,
+  
   isFilterApplied,
   setIsFilterApplied,
 }: HotelCardprops) {

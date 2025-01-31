@@ -17,11 +17,11 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
-            <SquareCard img="https://images.pexels.com/photos/30379285/pexels-photo-30379285/free-photo-of-colombo-skyline-reflected-at-night.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" city = "Colombo" />
-            <SquareCard img="https://images.pexels.com/photos/27669335/pexels-photo-27669335/free-photo-of-the-old-town-of-santa-fe-with-a-tower-and-a-path.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" city = "Galle" />
+            <SquareCard img="https://images.pexels.com/photos/30379285/pexels-photo-30379285/free-photo-of-colombo-skyline-reflected-at-night.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" city="Colombo" />
+            <SquareCard img="https://images.pexels.com/photos/27669335/pexels-photo-27669335/free-photo-of-the-old-town-of-santa-fe-with-a-tower-and-a-path.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" city="Galle" />
             <SquareCard img="https://images.pexels.com/photos/4553621/pexels-photo-4553621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="hidden md:block" city="Ella" />
-            <SquareCard img="https://images.pexels.com/photos/14041994/pexels-photo-14041994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="hidden md:block" city = "Kandy" />
-            {/* <SquareCard img="https://images.pexels.com/photos/29644512/pexels-photo-29644512/free-photo-of-nine-arch-bridge-in-lush-ella-sri-lanka.jpeg" className="hidden md:block" city = "Jaffna" /> */}
+            <SquareCard img="https://images.pexels.com/photos/14041994/pexels-photo-14041994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="hidden md:block" city="Kandy" />
+            {/* <SquareCard img="https://images.pexels.com/photos/29644512/pexels-photo-29644512/free-photo-of-nine-arch-bridge-in-lush-ella-sri-lanka.jpeg" className="hidden md:block" city="Jaffna" /> */}
           </div>
         </section>
 
@@ -34,14 +34,14 @@ export default function Home() {
                 Top Attractions
               </h2>
             </div>
-            <SquareCard img="https://images.pexels.com/photos/13391116/pexels-photo-13391116.jpeg?auto=compress&cs=tinysrgb&w=400" />
-            <SquareCard img="https://images.pexels.com/photos/27669335/pexels-photo-27669335/free-photo-of-the-old-town-of-santa-fe-with-a-tower-and-a-path.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+            <SquareCard img="https://images.pexels.com/photos/13391116/pexels-photo-13391116.jpeg?auto=compress&cs=tinysrgb&w=400" city="Attraction 1" />
+            <SquareCard img="https://images.pexels.com/photos/27669335/pexels-photo-27669335/free-photo-of-the-old-town-of-santa-fe-with-a-tower-and-a-path.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" city="Attraction 2" />
             <RectangleCard
               img="https://images.pexels.com/photos/17050614/pexels-photo-17050614/free-photo-of-boats-on-a-lake-among-rocky-hills.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               className="col-span-2"
             />
-            <SquareCard img="https://images.pexels.com/photos/28673261/pexels-photo-28673261/free-photo-of-spotted-deer-in-lush-sri-lankan-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-            <SquareCard img="https://images.pexels.com/photos/29644512/pexels-photo-29644512/free-photo-of-nine-arch-bridge-in-lush-ella-sri-lanka.jpeg" />
+            <SquareCard img="https://images.pexels.com/photos/28673261/pexels-photo-28673261/free-photo-of-spotted-deer-in-lush-sri-lankan-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" city="Attraction 3" />
+            <SquareCard img="https://images.pexels.com/photos/29644512/pexels-photo-29644512/free-photo-of-nine-arch-bridge-in-lush-ella-sri-lanka.jpeg" city="Attraction 4" />
           </div>
         </section>
 
@@ -53,14 +53,14 @@ export default function Home() {
                 Things To do
               </h2>
             </div>
-            <SquareCard img="https://images.pexels.com/photos/322480/pexels-photo-322480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-            <SquareCard img="https://images.pexels.com/photos/1645028/pexels-photo-1645028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+            <SquareCard img="https://images.pexels.com/photos/322480/pexels-photo-322480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" city="Activity 1" />
+            <SquareCard img="https://images.pexels.com/photos/1645028/pexels-photo-1645028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" city="Activity 2" />
             <RectangleCard
               img="https://images.pexels.com/photos/18727240/pexels-photo-18727240/free-photo-of-fortress-in-sunlight-on-sri-lanka.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               className="col-span-2"
             />
-            <SquareCard img="https://images.pexels.com/photos/6623875/pexels-photo-6623875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-            <SquareCard img="https://images.pexels.com/photos/287240/pexels-photo-287240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+            <SquareCard img="https://images.pexels.com/photos/6623875/pexels-photo-6623875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" city="Activity 3" />
+            <SquareCard img="https://images.pexels.com/photos/287240/pexels-photo-287240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" city="Activity 4" />
           </div>
         </section>
 

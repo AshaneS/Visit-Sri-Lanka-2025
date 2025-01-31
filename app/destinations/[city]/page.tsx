@@ -4,7 +4,7 @@ import LargeCard from "@/components/LargeCard";
 import SmallCard from "@/components/SmallCard";
 import destinationJson from "@/data/DestinationData.json";
 
-async function Destinations({ params }: { params: { city: string } }) {
+function Destinations({ params }: { params: { city: string } }) {
   const destinationData = destinationJson.find(
     (destination) =>
       destination.city.toLowerCase() === params.city.toLowerCase()

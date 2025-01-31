@@ -68,7 +68,14 @@ function Accomodation() {
           {isSidebarOpen && (
             <FilterSideBar
               toggleSidebar={toggleSidebar}
-              hotelsData={hotelsData}
+              hotelsData={hotelsData.map(hotel => ({
+                id: hotel.id,
+                name: hotel.name,
+                location: hotel.location,
+                category: hotel.category,
+                price: hotel.price_per_night,
+                image: hotel.image_url
+              }))}
               selectedFilter={selectedFilter}
               setSelectedFilter={setSelectedFilter}
               isFilterApplied={isFilterApplied}
@@ -87,5 +94,5 @@ function Accomodation() {
       </main>
     </div>
   );
-}
-export default Accomodation;
+
+}export default Accomodation;

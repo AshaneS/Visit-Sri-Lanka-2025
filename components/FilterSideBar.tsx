@@ -10,8 +10,8 @@ interface HotelCardprops {
     price: number;
     image: string;
   }[];
-  selectedFilter: string;
-  setSelectedFilter: React.Dispatch<React.SetStateAction<string>>;
+  selectedFilter: string[];
+  setSelectedFilter: React.Dispatch<React.SetStateAction<string[]>>;
   event: React.ChangeEvent<HTMLInputElement>;
   isFilterApplied: boolean;
   setIsFilterApplied: React.Dispatch<React.SetStateAction<boolean>>;

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-function SquareCard({ className, img, city }) {
+function SquareCard({ className, img, city }: { className?: string; img: string; city: string }) {
   if (!city) {
     console.error("City is undefined or missing");
   }

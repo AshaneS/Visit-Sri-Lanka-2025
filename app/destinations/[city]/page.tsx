@@ -94,5 +94,4 @@ async function Destinations({ params }: DestinationProps) {
       </main>
     </div>
   );
-
 }export default Destinations;

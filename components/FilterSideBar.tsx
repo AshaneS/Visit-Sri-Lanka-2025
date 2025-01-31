@@ -30,7 +30,9 @@ function FilterSideBar({
   const locations = [...new Set(hotelsData.map((hotel) => hotel.location))];
   const categories = [...new Set(hotelsData.map((hotel) => hotel.category))];
 
-  console.log(isFilterApplied);
+  if (isFilterApplied) {
+    console.log("Filters are applied!");
+  }
 
   const handleCheckboxClick = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { value, checked } = event.target;

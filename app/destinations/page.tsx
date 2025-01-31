@@ -9,11 +9,11 @@ function page() {
         <section className="mt-6">
           <div className="text-xl text-justify font-light mt-6 mb-6 text-gray-900 md:text-3xl md:font-normal lg:font-medium">
             <p>
-              No matter if you're seeking golden beaches, misty mountains,
+              No matter if you&apos;re seeking golden beaches, misty mountains,
               vibrant cities, or tranquil countryside, Sri Lanka offers it all.
-              Whether you're traveling solo, with a partner, or with family,
-              this island paradise, rich in culture and natural beauty, has the
-              perfect destination waiting for you.
+              Whether you&apos;re traveling solo, with a partner, or with
+              family, this island paradise, rich in culture and natural beauty,
+              has the perfect destination waiting for you.
             </p>
           </div>
         </section>
@@ -27,11 +27,11 @@ function page() {
                   Cities
                 </h1>
                 <p className="text-base font-light text-gray-700">
-                  Sri Lanka's cities, though compact, blend rich history with
-                  modern charm. Wander through vibrant streets lined with
+                  Sri Lanka&apos;s cities, though compact, blend rich history
+                  with modern charm. Wander through vibrant streets lined with
                   colonial architecture, explore bustling markets, and enjoy an
-                  abundance of parks and gardens – all just a stone's throw away
-                  from the heart of the city.
+                  abundance of parks and gardens – all just a stone&apos;s throw
+                  away from the heart of the city.
                 </p>
               </div>
 
@@ -48,11 +48,11 @@ function page() {
                   Beaches & Coastal Getaways
                 </h1>
                 <p className="text-base font-light text-gray-700">
-                  Sri Lanka's cities, though compact, blend rich history with
-                  modern charm. Wander through vibrant streets lined with
+                  Sri Lanka&apos;s cities, though compact, blend rich history
+                  with modern charm. Wander through vibrant streets lined with
                   colonial architecture, explore bustling markets, and enjoy an
-                  abundance of parks and gardens – all just a stone's throw away
-                  from the heart of the city.
+                  abundance of parks and gardens – all just a stone&apos;s throw
+                  away from the heart of the city.
                 </p>
               </div>
 
@@ -69,13 +69,13 @@ function page() {
                   Hill Country & Tea Plantations
                 </h1>
                 <p className="text-base font-light text-gray-700">
-                  Escape to Sri Lanka’s picturesque hill country, where lush
-                  green tea plantations stretch as far as the eye can see. With
-                  cool temperatures and breathtaking views, the region is
+                  Escape to Sri Lanka&apos;s picturesque hill country, where
+                  lush green tea plantations stretch as far as the eye can see.
+                  With cool temperatures and breathtaking views, the region is
                   perfect for relaxing retreats, scenic hikes, and immersing
-                  yourself in the island’s rich tea culture. Discover the serene
-                  beauty of rolling hills and quaint villages tucked away in the
-                  mountains.
+                  yourself in the island&apos;s rich tea culture. Discover the
+                  serene beauty of rolling hills and quaint villages tucked away
+                  in the mountains.
                 </p>
               </div>
 
@@ -92,12 +92,13 @@ function page() {
                   Festivals & Local Culture
                 </h1>
                 <p className="text-base font-light text-gray-700">
-                  Sri Lanka’s vibrant festivals and rich cultural heritage offer
-                  a colorful and immersive experience. From the grandeur of the
-                  Kandy Perahera to lively local celebrations, you’ll find a
-                  deep connection to ancient traditions, music, dance, and
-                  rituals. These festivals bring communities together, making it
-                  the perfect way to experience the island’s true spirit.
+                  Sri Lanka&apos;s vibrant festivals and rich cultural heritage
+                  offer a colorful and immersive experience. From the grandeur
+                  of the Kandy Perahera to lively local celebrations,
+                  you&apos;ll find a deep connection to ancient traditions,
+                  music, dance, and rituals. These festivals bring communities
+                  together, making it the perfect way to experience the
+                  island&apos;s true spirit.
                 </p>
               </div>
 

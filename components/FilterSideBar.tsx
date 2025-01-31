@@ -47,7 +47,6 @@ function FilterSideBar({
       setSelectedFilter(selectedFilter.filter((item) => item !== value));
     }
   };
-
   // if (isFilterApplied) {
   //   toggleSidebar();
   //   setIsFilterApplied(false);

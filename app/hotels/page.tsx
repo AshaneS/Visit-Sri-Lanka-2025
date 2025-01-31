@@ -32,8 +32,8 @@ function page() {
             Pristine nature, peace and warmth! The Riffelalp Resort 2222 m is a
             world of its own, far removed from the hustle and bustle of everyday
             life. Most of its 65 double rooms and five top suites have a balcony
-            with breathtaking views of the Matterhorn. In the hotel's"Spa
-            2'222m", moreover, guests can relax in Europe's highest outdoor
+            with breathtaking views of the Matterhorn. In the hotel&apos;s&quot;Spa
+            2&apos;222m&quot;, moreover, guests can relax in Europe&apos;s highest outdoor
             pool. And just so the palate has something to feast on too, there
             are three different restaurants to provide culinary flights of
             fancy. Plus fantastic skiing and walking right on your doorstep.

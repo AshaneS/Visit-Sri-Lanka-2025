@@ -1,101 +1,73 @@
-import Image from "next/image";
+import Banner from "@/components/Banner/Banner";
+import Carousel from "@/components/Carousel";
+import RectangleCard from "@/components/RectangleCard";
+import SquareCard from "@/components/SquareCard";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div>
+      <Banner />
+      <main className="max-w-7xl mx-auto px-8">
+        {/* Top Destinations */}
+        <section className="pt-6 pb-20 ">
+          <div>
+            <h2 className="text-4xl text-gray-700 font-bold pb-5">
+              Top Destinations
+            </h2>
+          </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+            <SquareCard img="https://images.pexels.com/photos/30379285/pexels-photo-30379285/free-photo-of-colombo-skyline-reflected-at-night.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" city = "Colombo" />
+            <SquareCard img="https://images.pexels.com/photos/27669335/pexels-photo-27669335/free-photo-of-the-old-town-of-santa-fe-with-a-tower-and-a-path.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" city = "Galle" />
+            <SquareCard img="https://images.pexels.com/photos/4553621/pexels-photo-4553621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="hidden md:block" city="Ella" />
+            <SquareCard img="https://images.pexels.com/photos/14041994/pexels-photo-14041994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="hidden md:block" city = "Kandy" />
+            {/* <SquareCard img="https://images.pexels.com/photos/29644512/pexels-photo-29644512/free-photo-of-nine-arch-bridge-in-lush-ella-sri-lanka.jpeg" className="hidden md:block" city = "Jaffna" /> */}
+          </div>
+        </section>
+
+        {/* Top Attractions */}
+
+        <section className="pt-6 pb-20">
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-4 grid-flow-row-dense">
+            <div className="col-span-2  md:col-span-1">
+              <h2 className="text-4xl text-gray-700 font-bold pb-5 ">
+                Top Attractions
+              </h2>
+            </div>
+            <SquareCard img="https://images.pexels.com/photos/13391116/pexels-photo-13391116.jpeg?auto=compress&cs=tinysrgb&w=400" />
+            <SquareCard img="https://images.pexels.com/photos/27669335/pexels-photo-27669335/free-photo-of-the-old-town-of-santa-fe-with-a-tower-and-a-path.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+            <RectangleCard
+              img="https://images.pexels.com/photos/17050614/pexels-photo-17050614/free-photo-of-boats-on-a-lake-among-rocky-hills.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              className="col-span-2"
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
+            <SquareCard img="https://images.pexels.com/photos/28673261/pexels-photo-28673261/free-photo-of-spotted-deer-in-lush-sri-lankan-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+            <SquareCard img="https://images.pexels.com/photos/29644512/pexels-photo-29644512/free-photo-of-nine-arch-bridge-in-lush-ella-sri-lanka.jpeg" />
+          </div>
+        </section>
+
+        {/* Things to do */}
+        <section>
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-4">
+            <div className="col-span-2  md:col-span-1">
+              <h2 className="text-4xl text-gray-700 font-bold pb-5">
+                Things To do
+              </h2>
+            </div>
+            <SquareCard img="https://images.pexels.com/photos/322480/pexels-photo-322480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+            <SquareCard img="https://images.pexels.com/photos/1645028/pexels-photo-1645028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+            <RectangleCard
+              img="https://images.pexels.com/photos/18727240/pexels-photo-18727240/free-photo-of-fortress-in-sunlight-on-sri-lanka.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              className="col-span-2"
+            />
+            <SquareCard img="https://images.pexels.com/photos/6623875/pexels-photo-6623875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+            <SquareCard img="https://images.pexels.com/photos/287240/pexels-photo-287240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+          </div>
+        </section>
+
+        <section>
+          <Carousel />
+        </section>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
   );
 }

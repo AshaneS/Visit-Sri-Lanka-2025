@@ -1,0 +1,631 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "name": "Amara Oceanfront Villa",
+    "category": "Luxury Stays",
+    "location": "Galle",
+    "rating": 5.0,
+    "price_per_night": 300,
+    "amenities": [
+      "Private infinity pool",
+      "Personal butler",
+      "Gourmet dining",
+      "Sea view suites",
+      "Spa treatments"
+    ],
+    "description": "An exquisite luxury villa with world-class amenities and panoramic ocean views.",
+    "image_url": "https://images.pexels.com/photos/1268871/pexels-photo-1268871.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 2,
+    "user_id": 2,
+    "name": "Grand Palace Resort",
+    "category": "Luxury Stays",
+    "location": "Galle",
+    "rating": 4.8,
+    "price_per_night": 250,
+    "amenities": [
+      "Rooftop bar",
+      "Luxury spa",
+      "Ocean-view suites",
+      "Fine dining"
+    ],
+    "description": "A stunning resort offering top-tier comfort and breathtaking sea views.",
+    "image_url": "https://images.pexels.com/photos/7902914/pexels-photo-7902914.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 3,
+    "user_id": 3,
+    "name": "Serene Lagoon Retreat",
+    "category": "Luxury Stays",
+    "location": "Galle",
+    "rating": 4.9,
+    "price_per_night": 280,
+    "amenities": [
+      "Overwater bungalows",
+      "Private beach access",
+      "Luxury spa treatments",
+      "Exclusive yacht tours"
+    ],
+    "description": "A private paradise with stunning lagoon views and world-class service.",
+    "image_url": "https://images.pexels.com/photos/1001965/pexels-photo-1001965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 4,
+    "user_id": 4,
+    "name": "Royal Cliff Mansion",
+    "category": "Luxury Stays",
+    "location": "Galle",
+    "rating": 5.0,
+    "price_per_night": 320,
+    "amenities": [
+      "Cliffside infinity pool",
+      "Private chef",
+      "Helicopter tours",
+      "Five-star spa"
+    ],
+    "description": "A grand mansion perched on a cliff, offering breathtaking ocean views and royal treatment.",
+    "image_url": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 5,
+    "user_id": 5,
+    "name": "Azure Sky Suites",
+    "category": "Luxury Stays",
+    "location": "Galle",
+    "rating": 4.7,
+    "price_per_night": 260,
+    "amenities": [
+      "Sky-high infinity pool",
+      "Penthouse suites",
+      "Luxury shopping arcade",
+      "Fine dining restaurants"
+    ],
+    "description": "A modern high-rise luxury hotel with panoramic city and ocean views.",
+    "image_url": "https://images.pexels.com/photos/3201921/pexels-photo-3201921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 6,
+    "user_id": 6,
+    "name": "Ocean Breeze Inn",
+    "category": "Budget-Friendly",
+    "location": "Galle",
+    "rating": 4.2,
+    "price_per_night": 50,
+    "amenities": [
+      "Free Wi-Fi",
+      "Air conditioning",
+      "Beach access",
+      "24-hour front desk",
+      "Daily breakfast"
+    ],
+    "description": "A comfortable, budget-friendly stay with easy access to Galle's beaches and local attractions.",
+    "image_url": "https://images.pexels.com/photos/2631613/pexels-photo-2631613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 7,
+    "user_id": 7,
+    "name": "Galle City Hostel",
+    "category": "Budget-Friendly",
+    "location": "Galle",
+    "rating": 4.0,
+    "price_per_night": 30,
+    "amenities": [
+      "Shared kitchen",
+      "Free Wi-Fi",
+      "Lockers",
+      "Barbecue facilities",
+      "Outdoor terrace"
+    ],
+    "description": "A lively hostel offering affordable accommodation with a social vibe and shared facilities.",
+    "image_url": "https://images.pexels.com/photos/20276961/pexels-photo-20276961/free-photo-of-twin-room-hotel-london-mowbray-court-hotel-central-london.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 8,
+    "user_id": 8,
+    "name": "Cozy Cottage Galle",
+    "category": "Budget-Friendly",
+    "location": "Galle",
+    "rating": 4.5,
+    "price_per_night": 45,
+    "amenities": [
+      "Private garden",
+      "Free parking",
+      "Outdoor seating area",
+      "Fan",
+      "Kitchenette"
+    ],
+    "description": "A charming cottage offering a peaceful retreat with budget-friendly amenities and a cozy ambiance.",
+    "image_url": "https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 9,
+    "user_id": 9,
+    "name": "Sunset Beach Guesthouse",
+    "category": "Budget-Friendly",
+    "location": "Galle",
+    "rating": 3.8,
+    "price_per_night": 40,
+    "amenities": [
+      "Beachfront",
+      "Free Wi-Fi",
+      "Balcony with sea view",
+      "Room service",
+      "Shared lounge"
+    ],
+    "description": "Affordable guesthouse located right on the beach, perfect for travelers looking for great value.",
+    "image_url": "https://images.pexels.com/photos/3051575/pexels-photo-3051575.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 10,
+    "user_id": 10,
+    "name": "Galle Budget Hotel",
+    "category": "Budget-Friendly",
+    "location": "Galle",
+    "rating": 3.9,
+    "price_per_night": 35,
+    "amenities": [
+      "Free breakfast",
+      "Free Wi-Fi",
+      "TV",
+      "Non-smoking rooms",
+      "Laundry service"
+    ],
+    "description": "A no-frills hotel offering basic amenities at an affordable price for travelers on a budget.",
+    "image_url": "https://images.pexels.com/photos/4825701/pexels-photo-4825701.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+
+  {
+    "id": 11,
+    "user_id": 11,
+    "name": "Ella Serenity Retreat",
+    "category": "Luxury Stays",
+    "location": "Ella",
+    "rating": 4.8,
+    "price_per_night": 220,
+    "amenities": [
+      "Private garden",
+      "Mountain view rooms",
+      "Yoga and meditation",
+      "Gourmet restaurant",
+      "Infinity pool"
+    ],
+    "description": "A tranquil retreat in the heart of Ella, offering breathtaking mountain views and luxury amenities.",
+    "image_url": "https://images.pexels.com/photos/6129991/pexels-photo-6129991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 12,
+    "user_id": 12,
+    "name": "Ella Riverside Cottage",
+    "category": "Budget-Friendly",
+    "location": "Ella",
+    "rating": 3.9,
+    "price_per_night": 65,
+    "amenities": [
+      "Free Wi-Fi",
+      "Pet-friendly",
+      "Riverside view",
+      "Outdoor seating area",
+      "Breakfast included"
+    ],
+    "description": "A cozy riverside cottage offering a budget-friendly escape with natural surroundings.",
+    "image_url": "https://images.pexels.com/photos/30338207/pexels-photo-30338207/free-photo-of-mediterranean-architecture-with-mountain-backdrop.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 13,
+    "user_id": 13,
+    "name": "Ella Mountain Resort",
+    "category": "Luxury Stays",
+    "location": "Ella",
+    "rating": 4.9,
+    "price_per_night": 280,
+    "amenities": [
+      "Private spa",
+      "Mountain trail access",
+      "Pool with a view",
+      "Restaurant with local cuisine",
+      "Fitness center"
+    ],
+    "description": "A luxurious resort offering panoramic views of the Ella mountains and indulgent amenities.",
+    "image_url": "https://images.pexels.com/photos/7746913/pexels-photo-7746913.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 14,
+    "user_id": 14,
+    "name": "Ella Eco Lodge",
+    "category": "Budget-Friendly",
+    "location": "Ella",
+    "rating": 4.0,
+    "price_per_night": 55,
+    "amenities": [
+      "Eco-friendly rooms",
+      "Community kitchen",
+      "Forest view",
+      "Organic breakfast",
+      "Outdoor fire pit"
+    ],
+    "description": "An eco-conscious lodge offering simple, comfortable accommodations surrounded by nature.",
+    "image_url": "https://images.pexels.com/photos/5028846/pexels-photo-5028846.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 15,
+    "user_id": 15,
+    "name": "Ella Dream Villa",
+    "category": "Luxury Stays",
+    "location": "Ella",
+    "rating": 4.7,
+    "price_per_night": 350,
+    "amenities": [
+      "Private villa",
+      "Outdoor jacuzzi",
+      "Personal chef",
+      "Private garden",
+      "Wine cellar"
+    ],
+    "description": "A luxurious private villa with stunning views of Ella's hills and bespoke services for an unforgettable experience.",
+    "image_url": "https://images.pexels.com/photos/5667901/pexels-photo-5667901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+
+  {
+    "id": 16,
+    "user_id": 16,
+    "name": "Galle Heritage Inn",
+    "category": "Boutique Hotels",
+    "location": "Galle",
+    "rating": 4.5,
+    "price_per_night": 120,
+    "amenities": [
+      "Free Wi-Fi",
+      "Air conditioning",
+      "Antique furniture",
+      "Personalized service",
+      "Breakfast included"
+    ],
+    "description": "A charming boutique hotel offering a unique blend of heritage and modern amenities, with a focus on personalized service.",
+    "image_url": "https://images.pexels.com/photos/27638208/pexels-photo-27638208/free-photo-of-a-jacuzzi-tub-in-a-bathroom-with-a-view-of-the-mountains.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 17,
+    "user_id": 17,
+    "name": "The Galle Fort Hotel",
+    "category": "Boutique Hotels",
+    "location": "Galle",
+    "rating": 4.7,
+    "price_per_night": 200,
+    "amenities": [
+      "Free Wi-Fi",
+      "Pool",
+      "Heritage architecture",
+      "Concierge service",
+      "Restaurant"
+    ],
+    "description": "A beautifully restored hotel inside the UNESCO World Heritage site, offering elegant rooms and a rich cultural experience.",
+    "image_url": "https://images.pexels.com/photos/13872453/pexels-photo-13872453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 18,
+    "user_id": 18,
+    "name": "The Island House",
+    "category": "Boutique Hotels",
+    "location": "Galle",
+    "rating": 4.3,
+    "price_per_night": 160,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor pool",
+      "Yoga classes",
+      "Spa",
+      "Garden views"
+    ],
+    "description": "A tranquil boutique hotel combining modern comforts with tropical surroundings, perfect for relaxation and wellness.",
+    "image_url": "https://images.pexels.com/photos/28954801/pexels-photo-28954801/free-photo-of-historic-lodge-in-mount-rainier-national-park.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 19,
+    "user_id": 19,
+    "name": "The Secret Garden Hotel",
+    "category": "Boutique Hotels",
+    "location": "Galle",
+    "rating": 4.6,
+    "price_per_night": 180,
+    "amenities": [
+      "Free Wi-Fi",
+      "Private garden",
+      "Bar",
+      "Restaurant",
+      "Daily housekeeping"
+    ],
+    "description": "A hidden gem nestled in a lush garden offering a peaceful escape with personalized attention and comfort.",
+    "image_url": "https://images.pexels.com/photos/27379407/pexels-photo-27379407/free-photo-of-a-pool-with-two-lounge-chairs-and-a-tree-in-the-background.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 20,
+    "user_id": 20,
+    "name": "The Blue Turtle Hotel",
+    "category": "Boutique Hotels",
+    "location": "Galle",
+    "rating": 4.8,
+    "price_per_night": 220,
+    "amenities": [
+      "Free Wi-Fi",
+      "Infinity pool",
+      "Beach access",
+      "Bar",
+      "Room service"
+    ],
+    "description": "A luxurious boutique hotel with stunning beach views, offering a serene escape with high-end amenities.",
+    "image_url": "https://images.pexels.com/photos/6130059/pexels-photo-6130059.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+
+  {
+    "id": 21,
+    "user_id": 21,
+    "name": "Galle Eco Lodge",
+    "category": "Nature Retreats",
+    "location": "Galle",
+    "rating": 4.6,
+    "price_per_night": 150,
+    "amenities": [
+      "Free Wi-Fi",
+      "Eco-friendly",
+      "Nature walks",
+      "Outdoor dining",
+      "Organic food"
+    ],
+    "description": "An eco-lodge nestled in the heart of nature, offering a serene atmosphere with an emphasis on sustainability.",
+    "image_url": "https://images.pexels.com/photos/10761023/pexels-photo-10761023.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 22,
+    "user_id": 22,
+    "name": "Nature's Bliss Retreat",
+    "category": "Nature Retreats",
+    "location": "Galle",
+    "rating": 4.8,
+    "price_per_night": 190,
+    "amenities": [
+      "Free Wi-Fi",
+      "Yoga retreat",
+      "Spa",
+      "Forest views",
+      "Breakfast included"
+    ],
+    "description": "A tranquil retreat offering yoga, spa treatments, and nature immersion for those looking to rejuvenate.",
+    "image_url": "https://images.pexels.com/photos/1084362/pexels-photo-1084362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 23,
+    "user_id": 23,
+    "name": "The Jungle Treehouse",
+    "category": "Nature Retreats",
+    "location": "Galle",
+    "rating": 4.4,
+    "price_per_night": 130,
+    "amenities": [
+      "Free Wi-Fi",
+      "Treehouse",
+      "Nature trails",
+      "Outdoor seating",
+      "Pet-friendly"
+    ],
+    "description": "A unique treehouse stay surrounded by the jungle, offering a secluded escape into nature.",
+    "image_url": "https://images.pexels.com/photos/2380249/pexels-photo-2380249.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 24,
+    "user_id": 24,
+    "name": "Serenity Nature Resort",
+    "category": "Nature Retreats",
+    "location": "Galle",
+    "rating": 4.7,
+    "price_per_night": 170,
+    "amenities": [
+      "Free Wi-Fi",
+      "Forest retreat",
+      "Spa services",
+      "Private villas",
+      "Nature tours"
+    ],
+    "description": "A luxury nature resort offering secluded villas and personalized experiences amidst lush forests.",
+    "image_url": "https://images.pexels.com/photos/5007455/pexels-photo-5007455.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 25,
+    "user_id": 25,
+    "name": "Ocean View Eco Resort",
+    "category": "Nature Retreats",
+    "location": "Galle",
+    "rating": 4.9,
+    "price_per_night": 210,
+    "amenities": [
+      "Free Wi-Fi",
+      "Beachfront",
+      "Eco-friendly",
+      "Outdoor pool",
+      "Solar energy"
+    ],
+    "description": "A beachfront eco-resort blending modern comforts with sustainability, offering breathtaking ocean views.",
+    "image_url": "https://images.pexels.com/photos/19045886/pexels-photo-19045886/free-photo-of-balcony-in-a-hotel-by-the-sea.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 26,
+    "user_id": 26,
+    "name": "Ella Riverside Boutique",
+    "category": "Boutique Hotels",
+    "location": "Ella",
+    "rating": 4.6,
+    "price_per_night": 140,
+    "amenities": [
+      "Free Wi-Fi",
+      "River view",
+      "Private balcony",
+      "Concierge service",
+      "Breakfast included"
+    ],
+    "description": "A boutique hotel overlooking the scenic river, offering a peaceful getaway with personalized service.",
+    "image_url": "https://images.pexels.com/photos/15045092/pexels-photo-15045092/free-photo-of-vintage-car-near-building.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 27,
+    "user_id": 27,
+    "name": "The Ella Escape",
+    "category": "Boutique Hotels",
+    "location": "Ella",
+    "rating": 4.7,
+    "price_per_night": 160,
+    "amenities": [
+      "Free Wi-Fi",
+      "Mountain views",
+      "Garden",
+      "Air conditioning",
+      "Restaurant"
+    ],
+    "description": "A charming boutique hotel offering breathtaking mountain views and a relaxing environment for nature lovers.",
+    "image_url": "https://images.pexels.com/photos/8135504/pexels-photo-8135504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 28,
+    "user_id": 28,
+    "name": "Ella Retreat Hotel",
+    "category": "Boutique Hotels",
+    "location": "Ella",
+    "rating": 4.5,
+    "price_per_night": 150,
+    "amenities": [
+      "Free Wi-Fi",
+      "Pool",
+      "Yoga classes",
+      "Garden views",
+      "Breakfast included"
+    ],
+    "description": "A stylish retreat offering wellness experiences and luxury with a focus on tranquility and relaxation.",
+    "image_url": "https://images.pexels.com/photos/2462622/pexels-photo-2462622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 29,
+    "user_id": 29,
+    "name": "Ella Heritage Villa",
+    "category": "Boutique Hotels",
+    "location": "Ella",
+    "rating": 4.3,
+    "price_per_night": 180,
+    "amenities": [
+      "Free Wi-Fi",
+      "Heritage architecture",
+      "Private garden",
+      "Bar",
+      "Restaurant"
+    ],
+    "description": "A heritage villa offering a blend of modern comfort and old-world charm, set within a lush green environment.",
+    "image_url": "https://images.pexels.com/photos/4502958/pexels-photo-4502958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 30,
+    "user_id": 30,
+    "name": "Ella Skyview Boutique",
+    "category": "Boutique Hotels",
+    "location": "Ella",
+    "rating": 4.8,
+    "price_per_night": 200,
+    "amenities": [
+      "Free Wi-Fi",
+      "Panoramic views",
+      "Spa",
+      "Restaurant",
+      "Outdoor seating"
+    ],
+    "description": "A luxury boutique hotel offering panoramic views of Ella’s famous landscapes, with premium amenities and services.",
+    "image_url": "https://images.pexels.com/photos/24877193/pexels-photo-24877193/free-photo-of-a-bed-in-a-room-with-a-wooden-floor.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 31,
+    "user_id": 31,
+    "name": "Ella Eco Resort",
+    "category": "Nature Retreats",
+    "location": "Ella",
+    "rating": 4.7,
+    "price_per_night": 160,
+    "amenities": [
+      "Free Wi-Fi",
+      "Eco-friendly",
+      "Nature trails",
+      "Outdoor dining",
+      "Organic food"
+    ],
+    "description": "An eco-friendly resort offering a serene escape with nature trails and a focus on sustainability.",
+    "image_url": "https://images.pexels.com/photos/9657966/pexels-photo-9657966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 32,
+    "user_id": 32,
+    "name": "The Green Retreat",
+    "category": "Nature Retreats",
+    "location": "Ella",
+    "rating": 4.6,
+    "price_per_night": 140,
+    "amenities": [
+      "Free Wi-Fi",
+      "Mountain views",
+      "Hiking opportunities",
+      "Private villas",
+      "Spa"
+    ],
+    "description": "A retreat surrounded by mountains, offering hiking and relaxation for those looking to unwind in nature.",
+    "image_url": "https://images.pexels.com/photos/1438261/pexels-photo-1438261.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 33,
+    "user_id": 33,
+    "name": "Ella Jungle Resort",
+    "category": "Nature Retreats",
+    "location": "Ella",
+    "rating": 4.4,
+    "price_per_night": 130,
+    "amenities": [
+      "Free Wi-Fi",
+      "Treehouse",
+      "Jungle views",
+      "Nature tours",
+      "Outdoor seating"
+    ],
+    "description": "A jungle resort offering treehouse accommodations, blending nature with comfort for a peaceful retreat.",
+    "image_url": "https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 34,
+    "user_id": 34,
+    "name": "Ella Rainforest Escape",
+    "category": "Nature Retreats",
+    "location": "Ella",
+    "rating": 4.8,
+    "price_per_night": 180,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rainforest views",
+      "Eco-friendly",
+      "Spa services",
+      "Private pools"
+    ],
+    "description": "An eco-conscious rainforest retreat offering a blend of comfort and nature immersion in Ella's lush surroundings.",
+    "image_url": "https://images.pexels.com/photos/903028/pexels-photo-903028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 35,
+    "user_id": 35,
+    "name": "Ella Forest Lodge",
+    "category": "Nature Retreats",
+    "location": "Ella",
+    "rating": 4.9,
+    "price_per_night": 200,
+    "amenities": [
+      "Free Wi-Fi",
+      "Forest views",
+      "Hiking trails",
+      "Yoga retreat",
+      "Outdoor dining"
+    ],
+    "description": "A tranquil lodge set within a forest, offering yoga, wellness, and nature walks for a rejuvenating experience.",
+    "image_url": "https://images.pexels.com/photos/29989224/pexels-photo-29989224/free-photo-of-scenic-traditional-house-amidst-bali-rice-fields.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  }
+]

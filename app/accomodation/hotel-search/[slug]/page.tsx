@@ -14,6 +14,8 @@ function Accomodation() {
 
   //state for the filter button
 
+
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [isFilterApplied, setIsFilterApplied] = useState(false);
 
   // toggle side bar fucntion//

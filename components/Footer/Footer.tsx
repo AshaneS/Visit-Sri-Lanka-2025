@@ -66,7 +66,7 @@ function Footer() {
 
         <div className="">
           <div className="md:h-[100]"></div>
-          <div className="h-[75] border-b-[1px] border-t-[1px] border-gray-200 flex justify-between items-center text-sm text-gray-700">
+          <div className="h-[100] md:h-[75] border-b-[1px] border-t-[1px] border-gray-200 flex justify-between items-center text-sm text-gray-700">
             <p>@2025 Sri Lanka Tourism</p>
             <div className="flex gap-3 justify-between items-center">
               <p className="hidden md:inline">Language</p>

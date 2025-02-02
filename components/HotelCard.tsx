@@ -35,7 +35,7 @@ function HotelCard({ hotel }: HotelCardProps) {
           <p className="text-sm font-light text-gray-600">{hotel.location}</p>
           <p className="text-base font-semibold mt-2">{hotel.name}</p>
           <p className="text-sm font-medium ">{hotel.rating}</p>
-          <p className="text-sm font-medium text-red-500 ">{hotel.category}</p>
+          <p className="text-sm font-medium text-rose-600 ">{hotel.category}</p>
         </div>
       </div>
     </div>

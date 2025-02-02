@@ -4,7 +4,7 @@ function Banner() {
   return (
     <div className=" relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]">
      <Image 
-     src="https://images.pexels.com/photos/356807/pexels-photo-356807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+     src="https://images.pexels.com/photos/16508233/pexels-photo-16508233/free-photo-of-tangalle-beach-sri-lanka-drone-view.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
      alt="banner" 
      fill className="object-cover"
      />

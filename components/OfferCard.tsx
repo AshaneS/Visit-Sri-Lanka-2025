@@ -40,7 +40,7 @@ function OfferCard({ offer }: OfferCardProps) {
     // </div>
     <div>
       <div className="flex flex-col gap-1 h-full items-center">
-        <div className="relative rounded-xl  overflow-hidden w-full min-w-0 aspect-[12.6/9.5]">
+        <div className="relative rounded-xl overflow-hidden w-full min-w-0 aspect-[12.6/9.5] hover:scale-95 transition duration-500 ease-in-out">
           <Image
             src={offer.image_url}
             fill

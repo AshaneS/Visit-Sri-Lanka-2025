@@ -18,7 +18,7 @@ interface HotelCardProps {
 function HotelCard({ hotel }: HotelCardProps) {
   return (
     <div className="grid grid-cols-2 h-full max-w-full min-w-0 aspect-[261/100]">
-      <div className="relative rounded-xl overflow-hidden hover:scale-95 transition duration-500 ease-in-out">
+      <div className="relative rounded-xl overflow-hidden hover:scale-95 transition duration-500 ease-[cubic-bezier(.11,.74,.35,.92)]">
         {/* Hotelcard Image */}
         <Image
           src={hotel.image_url}
@@ -26,7 +26,7 @@ function HotelCard({ hotel }: HotelCardProps) {
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           alt={hotel.name}
           style={{ objectFit: "cover" }}
-          className="hover:scale-110 transition duration-500 ease-in-out"
+          className="hover:scale-110 transition duration-500 ease-[cubic-bezier(.11,.74,.35,.92)]"
         />
       </div>
       {/* Hotelcard Info */}

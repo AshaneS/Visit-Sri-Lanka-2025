@@ -9,9 +9,9 @@ export default function Home() {
       <Banner />
       <main className="max-w-7xl mx-auto md:px-16 px-6">
         {/* Top Destinations */}
-        <section className="pt-6 pb-20 ">
+        <section className="pt-6">
           <div>
-            <h2 className="text-4xl text-gray-700 font-bold pb-5">
+            <h2 className="text-4xl text-gray-700 font-bold pb-6">
               Top Destinations
             </h2>
           </div>
@@ -41,10 +41,10 @@ export default function Home() {
 
         {/* Top Attractions */}
 
-        <section className="pt-6 pb-20">
+        <section className="pt-6">
           <div className="grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-4 grid-flow-row-dense">
             <div className="col-span-2  md:col-span-1">
-              <h2 className="text-4xl text-gray-700 font-bold pb-5 ">
+              <h2 className="text-4xl text-gray-700 font-bold pb-6 ">
                 Top Attractions
               </h2>
             </div>
@@ -73,10 +73,10 @@ export default function Home() {
         </section>
 
         {/* Things to do */}
-        <section>
+        <section className="pt-6">
           <div className="grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-4">
             <div className="col-span-2  md:col-span-1">
-              <h2 className="text-4xl text-gray-700 font-bold pb-5">
+              <h2 className="text-4xl text-gray-700 font-bold pb-6">
                 Things To do
               </h2>
             </div>

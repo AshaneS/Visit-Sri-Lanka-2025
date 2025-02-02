@@ -9,7 +9,7 @@ function Carousel() {
   const offersToDisplay = offersData.slice(2, 4);
   return (
     <div className="">
-      <div className="font-normal py-10 text-left gap-4 flex flex-col ">
+      <div className="font-normal py-10 text-left gap-10 flex flex-col ">
         {/* hotels */}
         <div>
           <h1 className="mb-2 text-4xl text-gray-700 font-bold">Hotels</h1>

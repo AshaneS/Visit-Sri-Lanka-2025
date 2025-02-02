@@ -30,12 +30,12 @@ function HotelCard({ hotel }: HotelCardProps) {
         />
       </div>
       {/* Hotelcard Info */}
-      <div className="">
+      <div className="over">
         <div className="flex flex-col p-2 text-left">
           <p className="text-sm font-light text-gray-600">{hotel.location}</p>
-          <p className="text-xl font-semibold mt-2">{hotel.name}</p>
-          <p className="text-lg font-medium ">{hotel.rating}</p>
-          <p className="text-lg font-medium text-red-500 ">{hotel.category}</p>
+          <p className="text-base font-semibold mt-2">{hotel.name}</p>
+          <p className="text-sm font-medium ">{hotel.rating}</p>
+          <p className="text-sm font-medium text-red-500 ">{hotel.category}</p>
         </div>
       </div>
     </div>

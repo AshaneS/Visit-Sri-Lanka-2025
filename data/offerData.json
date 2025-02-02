@@ -2,7 +2,7 @@
  {
    "id": 1,
    "title": "Galle Fort & Lighthouse Tour Admission",
-   "location": "Galle, Sri Lanka",
+   "location": "Galle",
    "rating": 4.7,
    "price": "LKR 1500",
    "description": "Experience the history and beauty of Galle with a guided tour of the famous Galle Fort and its iconic Lighthouse. Discover the fascinating stories behind these historic landmarks and enjoy panoramic ocean views.",
@@ -13,7 +13,7 @@
  {
    "id": 2,
    "title": "Unawatuna Beach Day Pass",
-   "location": "Unawatuna, Galle, Sri Lanka",
+   "location": "Unawatuna, Galle",
    "rating": 4.5,
    "price": "LKR 1200",
    "description": "Relax and unwind at the beautiful Unawatuna Beach, one of Sri Lanka’s most stunning coastal spots. Enjoy access to comfortable lounge chairs, a beachside café, and water sports activities throughout the day.",
@@ -24,7 +24,7 @@
  {
    "id": 3,
    "title": "Galle Fort Sunset Walk & Dining Experience",
-   "location": "Galle, Sri Lanka",
+   "location": "Galle",
    "rating": 4.8,
    "price": "LKR 4000",
    "description": "Take a guided sunset walk along the historic ramparts of Galle Fort, followed by a delicious Sri Lankan dinner at a beachfront restaurant. Enjoy the picturesque views as the sun sets over the Indian Ocean.",
@@ -35,7 +35,7 @@
  {
    "id": 4,
    "title": "Ravana Falls & Tea Plantation Tour",
-   "location": "Ella, Sri Lanka",
+   "location": "Ella",
    "rating": 4.6,
    "price": "LKR 3000",
    "description": "Explore the majestic Ravana Falls and take a guided tour of a local tea plantation. Learn about the tea-making process, and enjoy a fresh cup of Ceylon tea amidst the lush greenery of the hill country.",
@@ -46,7 +46,7 @@
  {
    "id": 5,
    "title": "Little Adam’s Peak Guided Hike",
-   "location": "Ella, Sri Lanka",
+   "location": "Ella",
    "rating": 4.7,
    "price": "LKR 1800",
    "description": "Experience the beauty of Little Adam’s Peak with a guided hike. Enjoy breathtaking views of Ella and the surrounding valleys as you walk through tea plantations and peaceful forests.",
@@ -57,7 +57,7 @@
  {
    "id": 6,
    "title": "Galle Face Green Evening Picnic",
-   "location": "Galle Face Green, Colombo, Sri Lanka",
+   "location": "Colombo",
    "rating": 4.5,
    "price": "LKR 1000",
    "description": "Spend a relaxing evening at Galle Face Green, one of Colombo’s most popular parks. Pack a picnic or buy local snacks from vendors, and enjoy a sunset by the sea with a view of the ocean and Colombo skyline.",
@@ -68,7 +68,7 @@
  {
    "id": 7,
    "title": "Colombo City Boat Ride & Harbour Tour",
-   "location": "Colombo Harbour, Sri Lanka",
+   "location": "Colombo",
    "rating": 4.6,
    "price": "LKR 2500",
    "description": "Take a guided boat tour of Colombo’s harbor and enjoy views of the city’s waterfront from the water. Explore the bustling harbor, and learn about Colombo’s importance as a trading hub in Sri Lanka’s history.",

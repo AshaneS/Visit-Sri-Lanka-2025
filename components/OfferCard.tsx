@@ -39,8 +39,8 @@ function OfferCard({ offer }: OfferCardProps) {
     //   </div>
     // </div>
     <div>
-      <div className="flex flex-col gap-1 h-full">
-        <div className="relative rounded-xl overflow-hidden h-full w-full min-w-0 aspect-[12.5/10]">
+      <div className="flex flex-col gap-1 h-full items-center">
+        <div className="relative rounded-xl  overflow-hidden w-full min-w-0 aspect-[12.6/9.5]">
           <Image
             src={offer.image_url}
             fill
@@ -51,12 +51,14 @@ function OfferCard({ offer }: OfferCardProps) {
           />
         </div>
 
-        <div className="border">
-          <div className="flex flex-col text-left gap-1">
-            <p className="text-sm font-light text-gray-600">{offer.location}</p>
-            <p className="text-base font-semibold">{offer.title}</p>
-            <p className="text-sm font-normal ">{offer.description.substring(0,80)}...</p>
-            <p className="text-sm font-medium text-red-500 ">{offer.price}</p>
+        <div className="">
+          <div className="flex flex-col pt-3 text-left gap-1">
+            <p className="line-clamp-3 text-sm font-light text-gray-600">{offer.location}</p>
+            <p className="line-clamp-3 text-lg font-semibold overflow-hidden">
+              {offer.title}
+            </p>
+            <p className="line-clamp-3 text-sm font-medium text-rose-700">{offer.description}</p>
+            <p className="line-clamp-3 text-base font-bold text-rose-600 pt-2 ">{offer.price}</p>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Banner />
-      <main className="max-w-7xl mx-auto px-8">
+      <main className="max-w-7xl mx-auto md:px-16 px-6">
         {/* Top Destinations */}
         <section className="pt-6 pb-20 ">
           <div>

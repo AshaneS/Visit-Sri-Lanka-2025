@@ -9,19 +9,22 @@ function Carousel() {
   const offersToDisplay = offersData.slice(2, 4);
   return (
     <div className="">
-      <div className="text-4xl font-normal tracking-wide py-10 text-left gap-4 flex flex-col ">
+      <div className="font-normal py-10 text-left gap-4 flex flex-col ">
         {/* hotels */}
         <div>
-          <h1 className="mb-2">Hotels</h1>
+          <h1 className="mb-2 text-4xl">Hotels</h1>
           <div className="flex flex-row gap-2 mb-4 justify-start items-center">
-            <Link href="/accomodation/hotel-search/-" className="text-base text-red-600 ">
+            <Link
+              href="/accomodation/hotel-search/-"
+              className="text-base text-red-600 "
+            >
               Show All hotels
             </Link>
             <h1 className="text-sm">here</h1>
           </div>
           {/* hotels */}
-          <div className="flex flex-col gap-4">
-            <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-5">
               {hotelsToDisplay.map((hotel) => (
                 <HotelCard key={hotel.id} hotel={hotel} />
               ))}
@@ -32,12 +35,12 @@ function Carousel() {
         {/* Offers */}
         <div>
           <h1 className="mb-2">Offers</h1>
-          <div className="flex flex-row gap-2 mb-4 justify-start items-center">
+          <div className="flex flex-row gap-2 mb-4 justify-start items-center ">
             <h1 className="text-base text-red-600">Show All Offers</h1>
             <h1 className="text-sm">here</h1>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-5 p-2">
             {offersToDisplay.map((offer) => (
               <OfferCard
                 key={offer.id}
